@@ -147,7 +147,7 @@ config.keys = {
   -- 水平分屏（上下）
   { key = '-', mods = 'CMD', action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' }},
   -- 关闭分屏
-  {key = 'q', mods = 'CMD|SHIFT', action = wezterm.action.CloseCurrentPane { confirm = false }},
+  {key = 'q', mods = 'CMD|ALT', action = wezterm.action.CloseCurrentPane { confirm = false }},
   -- 切换光标
   { key = 'h', mods = 'CMD', action = wezterm.action.ActivatePaneDirection 'Left' },
   { key = 'l', mods = 'CMD', action = wezterm.action.ActivatePaneDirection 'Right' },
